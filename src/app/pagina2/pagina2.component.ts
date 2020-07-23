@@ -17,7 +17,7 @@ export class Pagina2Component implements OnInit {
   ngOnInit(): void {
     this.route.params.subscribe(params=>{
       if(params["id"]!=null){
-        console.log("Llegada del parametro Id "+params["id"]);
+        console.log("Llegada de parametro Id "+params["id"]);
       }
     })
   }
